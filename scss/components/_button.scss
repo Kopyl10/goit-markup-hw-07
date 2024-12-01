@@ -1,0 +1,8 @@
+.modal-btn {
+  @include modal-btn;    
+
+&:hover,
+&:focus {
+  fill: var(--accent-color);
+}
+}

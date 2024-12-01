@@ -1,0 +1,18 @@
+//utils
+@import './utils/vars';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+
+//base styles
+@import './base/common';
+@import './base/container';
+@import './base/reset';
+@import './base/animations';
+
+//components
+@import './components/portfolio';
+@import './components/button';
+@import './components/modal-form';
+@import './components/socials';
+//layouts
+@import './layouts/header';
