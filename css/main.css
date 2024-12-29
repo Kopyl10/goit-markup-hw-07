@@ -262,9 +262,11 @@ ol {
   height: 40px;
   padding-left: 42px;
   outline: transparent;
+  cursor: pointer;
 }
 
-.mmodal-form__input:focus {
+.modal-form__input:focus,
+.modal-form__input:hover {
   border-color: var(--accent-color);
 }
 
@@ -796,12 +798,26 @@ ol {
   display: flex;
 }
 
+.about-text {
+  width: 270px;
+}
+
 .about-container {
   padding-bottom: 94px;
 }
 
 .gallery {
   position: relative;
+}
+
+.text {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: currentColor;
+  margin-bottom: 50px;
 }
 
 .gallery-text::after {
@@ -844,15 +860,15 @@ ol {
   width: 270px;
 }
 
+.about-img {
+  display: block;
+}
+
 .img-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-}
-
-.about-img {
-  display: block;
 }
 
 .team-wrap {
